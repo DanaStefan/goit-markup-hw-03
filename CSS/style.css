@@ -1,0 +1,197 @@
+:root {
+    --black-color-logo: #000000;
+    --blue-color: #2196F3;
+    --blue-botton-color:#188ce8;
+    --black-color-text: #212121;
+    --grey-color: #757575;
+    --white-color: #ffffff;
+    --top-line-color: #ececec;
+    --head-grey-color: #2F303A;
+    --our-team-background: #F5F4FA;
+    --logo-studio-font-family: "Raleway", sans-serif;
+    --text-font-family: "Roboto", sans-serif;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--black-color-text);
+}
+.web {
+    font-size: 26px;
+    font-weight: 700; 
+    font-family: var(--logo-studio-font-family);
+    color: var(--blue-color);
+
+}
+.studio {
+    font-size: 26px;
+        font-weight: 700;
+        font-family: var(--logo-studio-font-family);
+        color: var(--black-color-logo);
+
+}
+
+.studio-white {
+    font-size: 26px;
+        font-weight: 700;
+        font-family: var(--logo-studio-font-family);
+        color: var(--white-color)
+}
+
+.nav-link {
+    color: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.nav-link a:link,
+.nav-link a:visited {
+    color: inherit;
+}
+.nav-link a:hover {
+    color: var(--blue-color);
+}
+.nav-link a:active {
+    color: red
+}
+
+.contact a:link,
+.global-header .contact a:visited {
+    color: var(--grey-color)
+}
+.contact a:hover {
+    color: var(--blue-color);
+}
+
+.contact a:active {
+    color: red}
+
+.current {
+    color: var(--blue-color);
+}
+
+.contact a {
+    color: var(--grey-color);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.contact p {
+    font-size: 14px;
+    font-family: inherit;
+    font-style: normal;
+    color: var(--white-color);
+}
+ 
+.grey {
+    background-color: var(--head-grey-color);
+}
+
+.title {
+    font-size: 44px;
+        font-weight: 900;
+        font-family: inherit;
+        color: var(--white-color);
+        text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    font-size: 16px;
+        font-weight: 700;
+        font-family: inherit;
+        color: var(--white-color);
+    background-color: var(--blue-color);
+    border: 0cm;
+}
+
+.button:hover {
+    background-color: var(--white-color);
+    color: var(--blue-color);
+}
+
+.button-two {
+    cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: inherit;
+        color: var(--black-color-text);
+        background-color: var(--our-team-background);
+        border: 0cm;
+}
+
+.button-two:hover {
+    background-color: var(--blue-botton-color);
+    color: var(--white-color);
+}
+
+.group-one {
+font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    color: inherit;
+}
+
+.description {
+    font-size: 14px;
+        font-family: inherit;
+        color: var(--grey-color)
+}
+
+.title-two {
+font-size: 36px;
+    font-weight: 700;
+    font-family: inherit;
+    color: inherit;
+    text-align: center;
+}
+
+.team {
+    background-color: var(--our-team-background);
+}
+
+.teammate {
+    font-size: 16px;
+        font-weight: 500;
+        font-family: inherit;
+        color: inherit;
+        text-align: center;
+}
+
+.occupation {
+    font-size: 16px;
+        font-family: inherit;
+        color: var(--grey-color);
+        text-align: center;
+}
+
+.title-three {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inherit;
+    color: inherit;
+    text-align:left;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-family: inherit;
+    color: var(--grey-color);
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+

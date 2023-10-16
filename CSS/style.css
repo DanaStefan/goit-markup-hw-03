@@ -386,6 +386,10 @@ body {
     height: auto;
 }
 
+.card-two {
+    flex-basis: calc(100%-90px)/3;
+}
+
 
 
 

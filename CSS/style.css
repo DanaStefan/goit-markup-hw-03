@@ -355,7 +355,6 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-basis: calc(100%-30%)/3;
     gap: 30px;
     padding-left: 215px;
     padding-right: 215px;

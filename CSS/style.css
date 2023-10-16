@@ -335,6 +335,7 @@ body {
 .buttons ul {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     text-align: center;
     padding-left: 557px;
     padding-right: 542px;
@@ -354,6 +355,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-basis: calc(100%-90)/3;
     gap: 30px;
     padding-left: 215px;
     padding-right: 215px;
